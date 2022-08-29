@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--加载properties文件-->
+    <properties resource="jdbc.properties"></properties>
+    <!--使得配置环境中的数据源的数据库的值可以直接引用此文件中的，而不是直接硬编码在核心配置文件中-->
+    
+    <!--为实体类设置别名-->
+    <typeAliases>
+        <!--方式1：给单个实体类起别名-->
+<!--        <typeAlias type="com.myLagou.entity.User" alias="User"></typeAlias>-->
+
+        <!--方式2：批量给实体类起别名   就是给实体类所在包，实体类的类名就是别名，且不区分大小写-->
+        <package name="com.myLagou.entity"/>
+    </typeAliases>
+    
+    
+    <!--environments：配置运行环境-->
+    <environments default="development"><!--default="development"表示在默认的情况下选择的下面的environment中的指定的一个-->
+        <!--environment可以有多个-->
+        <environment id="development">
+            <!--transactionManager事务管理器    type属性表示事务管理器交由谁管理-->
+            <transactionManager type="JDBC"></transactionManager>
+            <!--数据源信息   type="POOLED"表示使用mybatis的连接池-->
+            <dataSource type="POOLED">
+                <property name="driver" value="${jdbc.driver}"/>
+                <!--原写法是 jdbc:mysql://localhost:3306/mybatis_db
+                这里省略了 localhost:3306 那就是 jdbc:mysql:///mybatis_db ，是3个/而不是 2个-->
+<!--                <property name="url" value="jdbc:mysql:///mybatis_db?characterEncoding=utf8&amp;useSSL=false&amp;serverTimezone=UTC&amp;rewriteBatchedStatements=true"/>-->
+                <property name="url" value="${jdbc.url}"/>
+                <property name="username" value="${jdbc.username}"/>
+                <property name="password" value="${jdbc.password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+
+    <!--引入mapper映射配置文件-->
+    <mappers>
+        <mapper resource="mapper/UserMapper.xml"></mapper>
+    </mappers>
+</configuration>

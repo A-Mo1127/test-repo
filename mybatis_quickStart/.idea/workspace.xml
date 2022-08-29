@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6da1d152-903e-42ea-a76a-e9a11d5da08d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2D129JVU1MWuPQdAEc5eIN8UxMo" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mybatis_dao/src/main/resources" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.14492753" />
+    <property name="project.structure.side.proportion" value="0.24321267" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\IDEAworkSpace\myLagou_mybatis\mybatis_quickStart\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.myLagou.entity" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IDEAworkSpace\myLagou_mybatis\mybatis_dao\src\main\resources" />
+      <recent name="E:\IDEAworkSpace\myLagou_mybatis\mybatis_quickStart\src\main\resources\mapper" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.MybatisDaoTest.tesPageHelper">
+    <configuration name="MybatisDaoTest.tesFindByArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis_dao" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.myLagou.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.myLagou.test" />
+      <option name="MAIN_CLASS_NAME" value="com.myLagou.test.MybatisDaoTest" />
+      <option name="METHOD_NAME" value="tesFindByArray" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisDaoTest.tesFindByList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis_dao" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.myLagou.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.myLagou.test" />
+      <option name="MAIN_CLASS_NAME" value="com.myLagou.test.MybatisDaoTest" />
+      <option name="METHOD_NAME" value="tesFindByList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisDaoTest.tesPageHelper" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis_dao" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.myLagou.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.myLagou.test" />
+      <option name="MAIN_CLASS_NAME" value="com.myLagou.test.MybatisDaoTest" />
+      <option name="METHOD_NAME" value="tesPageHelper" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisDaoTest.testFindByUsername3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis_dao" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.myLagou.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.myLagou.test" />
+      <option name="MAIN_CLASS_NAME" value="com.myLagou.test.MybatisDaoTest" />
+      <option name="METHOD_NAME" value="testFindByUsername3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisDaoTest.testFindByUsername4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis_dao" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.myLagou.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.myLagou.test" />
+      <option name="MAIN_CLASS_NAME" value="com.myLagou.test.MybatisDaoTest" />
+      <option name="METHOD_NAME" value="testFindByUsername4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MybatisDaoTest.tesPageHelper" />
+        <item itemvalue="JUnit.MybatisDaoTest.testFindByUsername4" />
+        <item itemvalue="JUnit.MybatisDaoTest.testFindByUsername3" />
+        <item itemvalue="JUnit.MybatisDaoTest.tesFindByList" />
+        <item itemvalue="JUnit.MybatisDaoTest.tesFindByArray" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6da1d152-903e-42ea-a76a-e9a11d5da08d" name="Default Changelist" comment="" />
+      <created>1659852116120</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1659852116120</updated>
+      <workItem from="1659852120079" duration="23237000" />
+      <workItem from="1659937901198" duration="10528000" />
+      <workItem from="1659961100015" duration="8915000" />
+      <workItem from="1659975638183" duration="821000" />
+      <workItem from="1660018678176" duration="2834000" />
+      <workItem from="1660023449758" duration="31000" />
+      <workItem from="1660023532626" duration="348000" />
+      <workItem from="1660024524128" duration="660000" />
+      <workItem from="1660396417018" duration="12000" />
+      <workItem from="1660407890799" duration="758000" />
+      <workItem from="1660444200812" duration="22000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="233" y="0" key="#Project_Structure" timestamp="1659882434172">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="0" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1659882434172" />
+    <state x="446" y="49" key="#com.intellij.ide.util.MemberChooser" timestamp="1659943244141">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="446" y="49" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1659943244140" />
+    <state width="1493" height="302" key="GridCell.Tab.0.bottom" timestamp="1660023419493">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1237" height="134" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1659973518224" />
+    <state width="1493" height="302" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1660023419493" />
+    <state width="1493" height="302" key="GridCell.Tab.0.center" timestamp="1660023419493">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1237" height="134" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1659973518224" />
+    <state width="1493" height="302" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1660023419493" />
+    <state width="1493" height="302" key="GridCell.Tab.0.left" timestamp="1660023419492">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1237" height="134" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1659973518223" />
+    <state width="1493" height="302" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1660023419492" />
+    <state width="1493" height="302" key="GridCell.Tab.0.right" timestamp="1660023419493">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1237" height="134" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1659973518224" />
+    <state width="1493" height="302" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1660023419493" />
+    <state width="1237" height="90" key="GridCell.Tab.1.bottom" timestamp="1659889801709">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="90" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1659889801709" />
+    <state width="1237" height="90" key="GridCell.Tab.1.center" timestamp="1659889801709">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="90" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1659889801709" />
+    <state width="1237" height="90" key="GridCell.Tab.1.left" timestamp="1659889801709">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="90" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1659889801709" />
+    <state width="1237" height="90" key="GridCell.Tab.1.right" timestamp="1659889801709">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="90" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1659889801709" />
+    <state x="328" y="0" width="914" height="680" key="SettingsEditor" timestamp="1659975993970">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="273" y="0" width="914" height="680" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1659888504502" />
+    <state x="328" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1659975993970" />
+    <state x="325" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1660444202678">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="325" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1660444202678" />
+    <state x="390" y="200" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1660018686746" />
+    <state x="34" y="42" key="new project wizard" timestamp="1660023417192">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="28" y="35" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1659882319367" />
+    <state x="34" y="42" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1660023417192" />
+    <state x="364" y="1" width="807" height="822" key="search.everywhere.popup" timestamp="1660019088644">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1659969862535" />
+    <state x="364" y="1" width="807" height="822" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1660019088644" />
+  </component>
+</project>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="user">
+    <!-- namespace:命名空间，与id属性共同构成唯一标识 -->
+    <!--查询所有-->
+<!--    <select id="findAll" resultType="com.myLagou.entity.User">-->
+    <select id="findAll" resultType="User">/*使用在核心文件中配置的别名*/
+        /*单纯只有一个id不能唯一确定这条select语句*/
+        /*resultType：返回结果类型（自动映射封装），将查询结果封装在resultType所指定的实体类中，需要些全路径*/
+            select * from user ;
+    </select>
+    <!--唯一定位到上述select语句的语法为：namespace.id  比如：user.findAll-->
+
+    <!--新增用户-->
+    <!--parameterType：指定sql语句中接收到的参数类型
+    /*#{}表示mybatis中的占位符，等同于JDBC中的?占位符
+        #{}实质上是通过parameterType中的实体类的getXxx方法来获取对应的参数
+            为了让传递过来的实体类中的属性值与指定字段对应，所以在#{}中会写上对应的属性名
+        */-->
+    <!--注意标签中不能写注释，-->
+    <insert id="insertUser" parameterType="com.myLagou.entity.User">
+        insert into user(username, birthday, sex, address) values(#{username}, #{birthday}, #{sex}, #{address});
+    </insert>
+
+
+    <!--更新操作-->
+    <update id="updateUser" parameterType="com.myLagou.entity.User">
+        update user set username = #{username},birthday=#{birthday},sex=#{sex},address=#{address}
+        where id=#{id}
+    </update>
+
+    <!--删除操作-->
+    <!--因为删除的id为int类型，所以传递的parameterType的类型不再是实体类，而是Integer
+      当参数类型为Integer或者String，且只有一个参数时，#{}中写的内容是什么不重要，因为只有一个参数，不会搞混
+      -->
+<!--    <delete id="deleteUser" parameterType="java.lang.Integer">-->
+    <!--可以简写为int-->
+    <delete id="deleteUser" parameterType="int">
+        delete from user where id=#{abc}
+    </delete>
+</mapper>

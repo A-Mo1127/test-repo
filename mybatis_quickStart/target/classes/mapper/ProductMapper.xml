@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="productMapper">
+    <!-- namespace:命名空间，与id属性共同构成唯一标识 -->
+    <select id="findAll">/*单纯只有一个id不能唯一确定这条select语句*/
+        select * from user ;
+    </select>
+</mapper>
